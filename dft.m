@@ -20,7 +20,7 @@ for m=0:N-1
   end
   X(m+1)=sqrt(a(m+1)^2+b(m+1)^2);
   Y(m+1)=X(m+1)^2;
-  X_angle=atan(b(m+1)/a(m+1));
+  X_angle(m+1)=atan(b(m+1)/a(m+1));
 end
 m=0:N-1;
 disp(X);
